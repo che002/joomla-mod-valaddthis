@@ -1,0 +1,16 @@
+#summary How to display a module in a Joomla article.
+#labels Featured,Phase-Deploy
+
+= Introduction =
+
+Here you are going to learn how you can have Joomla display a module in an article.
+
+
+= Details =
+
+ * Go to the Module Manager, find the module and click on it to edit it.
+ * On the Module's Edit screen and on the left hand side, click with the mouse in the "position" field.
+ * You can now enter a user-defined position for the module. Name it with a unique name, so that it doesn't conflict with the other template positions.
+ * Now in the article content add this text: *_{loadposition userposition}_*,where *_userposition_* is the name you entered before in the Module's Edit screen.
+ * The Module will now appear in that specific place of the article, where you typed *_{loadposition userposition}_*.
+ * In case you want to use multiple copies of a Module, bear in mind that you should configure them so they appear in different user-defined positions. That is, for every copy of a Module a new user-defined position.
