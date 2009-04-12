@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Here you are going to learn how you can have Joomla display a module in an article.
+Here you are going to learn how you can have Joomla display a module in an article. The standard Joomla plugin called *_Content - Load Module_* has to be enabled (after a fresh Joomla installation it is enabled by default). Go to the Plugin Manager and double check if it is enabled. If it is not, then enable it.
 
 
 = Details =
